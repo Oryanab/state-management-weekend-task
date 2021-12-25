@@ -43,7 +43,13 @@ export default function UserInfo() {
           />
           <br />
           <Button
-            onClick={(e) => Dispatch(changeUser(name, workPlace, date))}
+            onClick={(e) => {
+              if (name.length > 0 && workPlace.length > 0 && date.length > 0) {
+                Dispatch(changeUser(name, workPlace, date));
+              } else {
+                alert("all fields must be filled");
+              }
+            }}
             variant="outline-primary"
           >
             Login System

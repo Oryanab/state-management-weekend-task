@@ -88,12 +88,16 @@ export default function EquipmentForm() {
           <br />
           <Button
             onClick={(e) => {
-              Dispatch(
-                addNewEquipment(equipmentName, fullQuantity, currentQuantity)
-              );
-              setEquipmentName("");
-              setFullQuantity(0);
-              setCurrentQuantity(0);
+              if (equipmentName.length > 0 && fullQuantity > 0) {
+                Dispatch(
+                  addNewEquipment(equipmentName, fullQuantity, currentQuantity)
+                );
+                setEquipmentName("");
+                setFullQuantity(0);
+                setCurrentQuantity(0);
+              } else {
+                alert("All fields must be filled");
+              }
             }}
             variant="outline-primary"
           >
