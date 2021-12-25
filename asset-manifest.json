@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/state-management-weekend-task/static/css/main.0f4c1733.css",
-    "main.js": "/state-management-weekend-task/static/js/main.63511256.js",
+    "main.js": "/state-management-weekend-task/static/js/main.1912062d.js",
     "index.html": "/state-management-weekend-task/index.html",
     "main.0f4c1733.css.map": "/state-management-weekend-task/static/css/main.0f4c1733.css.map",
-    "main.63511256.js.map": "/state-management-weekend-task/static/js/main.63511256.js.map"
+    "main.1912062d.js.map": "/state-management-weekend-task/static/js/main.1912062d.js.map"
   },
   "entrypoints": [
     "static/css/main.0f4c1733.css",
-    "static/js/main.63511256.js"
+    "static/js/main.1912062d.js"
   ]
 }
