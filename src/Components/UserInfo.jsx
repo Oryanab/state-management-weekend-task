@@ -18,6 +18,7 @@ export default function UserInfo() {
     <div>
       <h2 style={{ textAlign: "left" }}>User Login:</h2>
       <hr />
+
       <Form>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Employee Name:</Form.Label>

@@ -16,9 +16,7 @@ code {
   margin: auto;
   margin-top: 10vh;
   margin-bottom: 10vh;
-
-  width: 70vw;
-  border: 0.5vh solid black;
+  width: 80vw;
+  border: 0.1vh solid rgb(192, 189, 184);
   padding: 2vh;
-  border-radius: 1vh;
 }
