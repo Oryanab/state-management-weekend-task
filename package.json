@@ -1,6 +1,6 @@
 {
   "name": "state-management-weekend-task",
-  "homepage": "http://oryanab.github.io/state-management-weekend-task",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
